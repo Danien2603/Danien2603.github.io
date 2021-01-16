@@ -61,7 +61,7 @@ header * {
 }
 header h1 {
   font-size: 3rem;
-  margin-bottom: 5px;
+  margin-bottom: 0.3rem;
   margin-top: 0;
 }
 header p {
@@ -76,9 +76,9 @@ header p {
   color: #b3af8f;
   font-size: 1.5rem;
 }
-.contacts a {
+.icon {
   text-decoration: none;
-  font-size: 30px;
+  font-size: 2rem;
 }
 footer {
   background-color: #66999b;
