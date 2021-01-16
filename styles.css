@@ -7,6 +7,7 @@ body {
   font-family: "PT Sans", sans-serif;
   margin: 0;
   font-size: 20px;
+  height: 100vh;
 }
 nav {
   background-color: #2b3a67;
@@ -24,17 +25,13 @@ nav a {
   color: #fff;
   margin-left: 1rem;
 }
-#about-navbar {
-  transition: transform 0.2s;
-}
 #about-navbar:hover {
   transform: scale(1.25);
-}
-#projects-navbar {
-  transition: transform 0.2s;
+  transition: 0.2s;
 }
 #projects-navbar:hover {
   transform: scale(1.25);
+  transition: 0.2s;
 }
 header {
   background-image: url(https://images.unsplash.com/photo-1555066931-4365d14bab8c?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80);
