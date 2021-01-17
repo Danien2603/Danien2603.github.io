@@ -76,12 +76,14 @@ header p {
   color: #b3af8f;
   font-size: 1.5rem;
 }
-.icon {
+#github-link {
   text-decoration: none;
-  font-size: 2rem;
+  font-size: 2em;
+  color: #fff;
 }
+
 footer {
-  background-color: #66999b;
+  background-color: #070808;
   color: #fff;
   padding: 0.5rem;
   text-align: center;
