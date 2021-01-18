@@ -79,6 +79,20 @@ header p {
 }
 .project-tile {
   text-decoration: none;
+  margin-top: 2rem;
+  margin-left: 2.5rem;
+  margin-right: 2.5rem;
+  transition: transform 0.3s ease;
+}
+.project-tile:hover {
+  transform: scale(1.05);
+}
+
+.project-tile img {
+  max-width: 100%;
+}
+
+.project-tile p {
   color: #b3af8f;
   font-size: 1.5rem;
 }
