@@ -70,6 +70,12 @@ header p {
 }
 #projects {
   text-align: center;
+  font-size: 1.5rem;
+}
+.projects-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .project-tile {
   text-decoration: none;
@@ -81,7 +87,6 @@ header p {
   font-size: 2em;
   color: #fff;
 }
-
 footer {
   background-color: #66999b;
   color: #fff;
