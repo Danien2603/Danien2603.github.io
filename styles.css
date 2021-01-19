@@ -96,6 +96,11 @@ header p {
   color: #b3af8f;
   font-size: 1.5rem;
 }
+.img-responsive {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
 #github-link {
   text-decoration: none;
   font-size: 2em;
