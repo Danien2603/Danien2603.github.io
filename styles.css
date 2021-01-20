@@ -25,11 +25,21 @@ nav a {
   color: #fff;
   margin-left: 1rem;
 }
-#about-navbar:hover {
+#github-link {
+  text-decoration: none;
+  font-size: 1.2em;
+  color: #fff;
+}
+#email-link {
+  text-decoration: none;
+  font-size: 1.2em;
+  color: #fff;
+}
+#github-link:hover {
   transform: scale(1.25);
   transition: 0.2s;
 }
-#projects-navbar:hover {
+#email-link:hover {
   transform: scale(1.25);
   transition: 0.2s;
 }
@@ -61,7 +71,7 @@ header * {
 }
 header h1 {
   font-size: 3rem;
-  margin-bottom: 0.3rem;
+  margin-bottom: 1.5rem;
   margin-top: 0;
 }
 header p {
@@ -107,11 +117,6 @@ header p {
 .project-tile-img {
   height: 500px;
   width: 500px;
-}
-#github-link {
-  text-decoration: none;
-  font-size: 2em;
-  color: #fff;
 }
 footer {
   background-color: #66999b;
