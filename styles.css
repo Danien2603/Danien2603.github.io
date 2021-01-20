@@ -93,13 +93,14 @@ header p {
 }
 
 .project-tile p {
-  color: #b3af8f;
+  color: #fff;
   font-size: 1.5rem;
 }
-.img-responsive {
+.project-img {
   display: block;
   max-width: 100%;
   height: auto;
+  border-radius: 5%;
 }
 #github-link {
   text-decoration: none;
