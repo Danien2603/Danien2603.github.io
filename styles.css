@@ -10,7 +10,7 @@ body {
   height: 100vh;
 }
 nav {
-  background-color: #2b3a67;
+  background-color: #2b3a6777;
   padding: 1rem;
   display: flex;
   justify-content: flex-end;
@@ -76,6 +76,7 @@ header p {
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-wrap: wrap;
 }
 .project-tile {
   text-decoration: none;
@@ -91,7 +92,6 @@ header p {
 .project-tile img {
   max-width: 100%;
 }
-
 .project-tile p {
   color: #fff;
   font-size: 1.5rem;
@@ -101,6 +101,12 @@ header p {
   max-width: 100%;
   height: auto;
   border-radius: 5%;
+  height: 100%;
+  object-fit: cover;
+}
+.project-tile-img {
+  height: 500px;
+  width: 500px;
 }
 #github-link {
   text-decoration: none;
@@ -112,4 +118,5 @@ footer {
   color: #fff;
   padding: 0.5rem;
   text-align: center;
+  margin-top: 5rem;
 }
