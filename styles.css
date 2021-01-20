@@ -25,6 +25,9 @@ nav a {
   color: #fff;
   margin-left: 1rem;
 }
+i {
+  margin-right: 0.5rem;
+}
 #github-link {
   text-decoration: none;
   font-size: 1.2em;
