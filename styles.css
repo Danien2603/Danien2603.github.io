@@ -28,18 +28,13 @@ nav a {
 i {
   margin-right: 0.5rem;
 }
-#github-link {
+.contacts {
   text-decoration: none;
   font-size: 1.2em;
   color: #fff;
   margin: 0 1rem;
 }
-#email-link {
-  text-decoration: none;
-  font-size: 1.2em;
-  color: #fff;
-  margin: 0 1rem;
-}
+
 #github-link:hover {
   transform: scale(1.25);
   transition: 0.2s;
