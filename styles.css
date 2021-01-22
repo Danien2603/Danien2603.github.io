@@ -84,7 +84,7 @@ header p {
   margin: 0;
   text-align: center;
 }
-#projects {
+section{
   text-align: center;
   font-size: var(--text-size-normal);
 }
